@@ -26,15 +26,15 @@ export const Category = () => {
       return () => clearInterval(interval);
     }
   }, [products]);
+
   const fetchProductData = () => {
-    axios.get('https://vegefoodbackend.vercel.app/api/getImage')
+    axios.get('http://localhost:5100/getImage')
       .then(res => {
         setProducts(res.data);
         setDisplayedProducts(getRandomProducts(res.data));
       })
       .catch(err => console.log('Fetch Error:', err));
   };
-  
 
   return (
     <div className="category-section">
