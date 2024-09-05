@@ -1,0 +1,75 @@
+.section-packages {
+  background: transparent;
+  justify-content: center;
+  /* padding: 130px; */
+  min-height: 300px;
+  align-items: center;
+  display: flex;
+}
+
+.packages-items {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  gap: 160px; /* Optional: Add space between the items */
+  width: 100%;
+}
+
+.package-item {
+  text-align: center; /* Center align text */
+}
+
+.package-item .img-container {
+  background: #e4b2d6;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  display: inline-block; /* Make sure it's inline-block to center */
+}
+
+.package-item .img-container .imgg-container{
+  padding: 20px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+.package-item .img-container .circlee{
+  border: 1px solid rgb(243, 243, 243);
+
+  border-radius: 50%;
+}
+
+.package-item:nth-child(2) .img-container {
+  background: #dcc698;
+}
+
+.package-item:nth-child(3) .img-container {
+  background: #b4d4e4;
+}
+
+.package-item:nth-child(4) .img-container {
+  background: #dcd691;
+}
+
+.package-item .img-container:hover {
+  background: #82ae46;
+  transition: all 0.3s ease;
+}
+
+.package-item h3 {
+  margin: 10px 0 5px 0; /* Adjust spacing */
+  font-size: 15px; /* Adjust font size */
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.package-item p {
+  margin: 0;
+  font-size: 12px;
+  color: gray; /* Adjust color as needed */
+}
+
+.about-background {
+  background-color: #f5f5f5; /* Light gray background for About */
+  padding: 50px;
+}

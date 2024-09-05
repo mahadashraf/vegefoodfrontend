@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.body-containerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url("https://www.bhg.com/thmb/Mwd_YEkDbVg_fPsUDcWr3eZk9W0=/5645x0/filters:no_upscale():strip_icc()/difference-between-fruits-vegetables-01-5f92e7ec706b463287bcfb46985698f9.jpg");
+    
+}
+
+.vegefood-logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 1.5rem;
+    color: #82ae46;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    transition: all 0.3s ease;
+  }
+  
+.vegefood-logo:hover {
+    color: #000000;
+    transition: all 0.3s ease;
+  }
+  
+
+.admin-form-containerr {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+              0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 868px;
+  max-width: 100%;
+  min-height: 580px;
+  min-width: 370px;
+}
+
+.lg-vieww {
+  font-size: 2rem;
+  /* margin-bottom: 1rem; */
+  margin-top: 0 !important;
+  color: #82ae46;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.left-inner-headingg {
+  font-size: 2rem;
+  position: relative;
+  top: -310px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.formm-containerr {
+  display: flex;
+}
+
+.leftt-containerr {
+  flex: 1;
+  height: 790px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-image: url("https://www.fluentu.com/blog/english/wp-content/uploads/sites/4/2023/05/vegetables.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.right-containerr {
+  display: flex;
+  flex: 1;
+  height: 790px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-inner-containerr {
+  width: 70%;
+  height: 80%;
+  text-align: center;
+}
+
+.product-form-inputt {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Poppins", Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.product-form-inputt:focus {
+  outline: 1px solid #00b4cf;
+}
+
+.product-form-buttonn {
+  background-color: #82ae46;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-radius: 50px;
+  background-color: #8bc34a;
+  border: none;
+  padding: 15px 45px;
+  cursor: pointer;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.product-form-buttonn:hover {
+  opacity: 0.7;
+  background-color: transparent;
+  border: 1px solid #8bc34a;
+  color: #8bc34a;
+  transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 600px) {
+  .leftt-containerr {
+    display: none;
+  }
+  .lg-vieww {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sm-vieww {
+    display: none;
+  }
+}

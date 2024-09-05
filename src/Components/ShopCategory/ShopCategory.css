@@ -1,0 +1,32 @@
+.filter-button {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 10px;
+}
+
+ul li button {
+    padding: 6px 20px;
+    border-radius: 7px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+}
+
+
+.pagination {
+    display: flex;
+    gap: 5px;
+}
+
+.prev-button, .item-button, .next-button {
+    padding: 9px 17px;
+    border-radius: 50%;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+

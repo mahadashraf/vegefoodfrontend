@@ -1,0 +1,175 @@
+.userdashboard {
+    flex: 1;
+    padding: 20px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h2 {
+    margin: 0;
+}
+
+.searchh-form {
+    display: flex;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.searchh-icon {
+    margin-right: 10px;
+}
+
+.searchh-form input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.sociall-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.sociall-icons a {
+    display: flex;
+    align-items: center;
+}
+
+.admin-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.user-table-container {
+    overflow-x: auto;
+    
+}
+
+.usertabletext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inneruser {
+    display: flex;
+    align-items: center;
+    gap: 1200px;
+}
+
+.new-user-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.new-user-button:hover {
+    background-color: #333;
+}
+
+.user-table {
+    width: 70%;
+    background: #ffffff;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.user-table th, .user-table td {
+   
+    padding: 12px;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #f4f4f4;
+}
+
+.user-table td .status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+}
+
+.status.active {
+    background-color: #2ecc71;
+}
+
+.status.banned {
+    background-color: #e74c3c;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination span {
+    margin: 0 5px;
+}
+
+.pagination select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pagination button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagination button:hover {
+    background-color: #f4f4f4;
+}
+.user-table {
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .user-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-table tr:hover {
+    background-color: #ddd;
+  }
+  

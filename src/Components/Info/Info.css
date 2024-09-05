@@ -1,0 +1,41 @@
+.info-section{
+    background: #82ae46;
+    display: flex;
+    justify-content: space-around ;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+.info-section  h2{
+    font-size: 11px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+.info-section .num{
+    display: flex;
+    align-items: center;
+
+}
+.info-section .num .icon{
+    display: flex;
+}
+
+.info-section .email{
+    display: flex;
+    align-items: center;
+
+}
+.info-section .email .icon{
+    display: flex;
+}
+
+.white-icon{
+    color: #fff;
+    font-size: 11px;
+}

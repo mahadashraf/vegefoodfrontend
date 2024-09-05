@@ -1,0 +1,141 @@
+.contact-content-section {
+    background: #f7f6f2;
+    height: 128vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .uppercontent {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+   
+  }
+  
+  .uppercontent-text {
+    background: white;
+    padding: 20px;
+    width: 200px;
+
+    height: 100px;
+  }
+  
+  .uppercontent-text p {
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+  }
+  
+  .uppercontent-text p span {
+    font-weight: 400;
+    color: gray;
+  }
+  
+  .uppercontent-text p a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .lowercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .lowercontent-map {
+    background: #eef0f1;
+    width: 510px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .map-error {
+    text-align: center;
+  }
+  
+  .map-error .map-icon {
+    font-size: 30px;
+    color: gray;
+  }
+  
+  .map-error p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .map-error span {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .lowercontent-form {
+    background: white;
+    padding: 50px;
+    width: 39%;
+    height: 450px;
+  }
+  
+  .lowercontent-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lowercontent-form input {
+    width: 90%;
+    padding: 17px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .lowercontent-form input , textarea::placeholder{
+
+        font-size: 17px;
+        font-family: "Poppins", Arial, sans-serif;
+  }
+  .lowercontent-form textarea{
+
+    width: 90%;
+    padding: 17px 17px 107px 17px;
+    margin-bottom: 10px;
+   
+    border-radius: 5px;
+
+
+  }
+  .lowercontent-form button {
+    background: #82ae46;
+    color: white;
+    padding:15px 10px 15px 10px;
+    
+    width: 180px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+
+  
+  
+    
+  }
+  .lowercontent-form button:hover{
+    background: transparent;
+    border: 1px solid #82ae46;
+    color: #82ae46;
+  }
+  

@@ -1,0 +1,195 @@
+/* Ensure the background image and center content */
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-image: url("https://www.bhg.com/thmb/Mwd_YEkDbVg_fPsUDcWr3eZk9W0=/5645x0/filters:no_upscale():strip_icc()/difference-between-fruits-vegetables-01-5f92e7ec706b463287bcfb46985698f9.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.left-section {
+  background-color: #82ae46;
+  width: 27%;
+  height: 770px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.left-section h1 {
+  font-size: 2.5rem;
+  max-width: 70%;
+  color: white;
+}
+
+.right-section {
+  background-color: #0a3c5a;
+  width: 700px;
+  height: 690px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center content horizontally */
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; /* Rounded corners */
+}
+
+.right-section h2 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #82ae46;
+}
+
+.login-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.signup-form {
+  /* margin-bottom: 20px; */
+  width: 100%;
+}
+
+.mainn {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.mainn input {
+  width: 300px; /* Ensure inputs are responsive */
+}
+
+.input-row {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Ensure error messages position correctly */
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem; /* Adjust font size as needed */
+  margin-top: 0.5rem; /* Add margin to avoid overlap */
+}
+
+.checkbox-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.checkbox-row input {
+  margin-right: 10px;
+}
+
+.terms-link {
+  color: #82ae46;
+  text-decoration: none;
+}
+
+.terms-link:hover {
+  text-decoration: underline;
+}
+
+.create-account-button {
+  background-color: #82ae46;
+  border: none;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.6s ease, color 0.6s ease, border-radius 0.6s ease;
+}
+
+.create-account-button:hover {
+  background-color: greenyellow;
+  color: #000000;
+  border-radius: 50px;
+}
+
+.social-signupp {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.socialstylee {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialstylee .texttlogin {
+  color: #fff;
+}
+
+.socialstylee hr {
+  width: 120px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.create-accountt a {
+  text-decoration: none;
+  color: #82ae46;
+}
+
+.create-accountt p {
+  color: #fff;
+}
+
+.social-button {
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000;
+  transition: transform 0.3s ease; /* Adjust transition property */
+}
+
+.social-icons .social-button:hover {
+  transform: scale(1.1);
+}

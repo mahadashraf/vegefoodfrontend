@@ -1,0 +1,110 @@
+/* Navbar.css */
+
+/* Keyframes for fade-in and fade-out */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  
+  .navbar-section {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    gap: 260px;
+    align-items: center;
+    padding: 7px;
+    z-index: 1000; /* Ensures the navbar is above other content */
+    border-bottom: 1px solid #ddd; /* Optional: Adds a bottom border for visual separation */
+    /* animation: fadeIn 0.3s ease-in-out; */
+    transition: all 0.3s ease;
+}
+  
+  /* Optionally, for fixed positioning */
+  .navbar-fixed {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Add this class to handle hiding when scrolling up */
+  .navbar-hidden {
+    animation: fadeOut 0.3s ease-in-out;
+  }
+  .navbar-nav {
+    display: flex;
+    gap: 40px;
+    letter-spacing: 2px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    display: list-item;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  li button{
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    display: list-item;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  .logo-img a {
+    text-decoration: none;
+    color: #82ae46;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", Arial, sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .logo-img a:hover {
+    color: #000000;
+    transition: all 0.3s ease;
+  }
+
+  /* Add this class to highlight the cart item */
+.cart-active {
+    background: #82ae46;
+    padding: 10px;
+    margin-top: -10px; /* Optional: Change text color for better contrast */
+    transition: all 0.3s ease;
+}
+  /* Ensure the icon color is white when active */
+.cart-active  .iconn {
+    color: white;
+    
+}
+
+.cart-active a{
+    color: #fff;
+}
+.logo-img.sticky-logo a {
+  color: black; /* Change to your desired color */
+}

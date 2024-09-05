@@ -1,0 +1,109 @@
+.testimonials {
+  text-align: center;
+  padding: 50px 0;
+  width: 80%;
+  margin: 0 auto; /* Centers the .testimonials section horizontally */
+}
+
+.testimonials h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.testimonials p {
+  color: #888;
+  font-size: 17px;
+  margin-bottom: 40px;
+  width: 39%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+.headin {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Lora", Georgia, serif;
+  font-style: italic;
+  color: #82ae46;
+}
+
+.testimonials .testimonial-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto; /* Centers the testimonial item horizontally */
+  text-align: center;
+  margin-bottom: 70px; 
+
+}
+
+.testimonials .testimonial-item img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px; /* Add margin below the image for better spacing */
+  margin-left: 140px;
+}
+
+.testimonials .testimonial-item blockquote {
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 0 50px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: rgba(0,0,0,4.55);
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 50px; 
+
+}
+
+.testimonials .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;  
+  margin-bottom: 20px; 
+}
+
+.testimonials .testimonial-item span {
+  color: #000000;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", Arial, sans-serif;  
+  letter-spacing: 2px;
+}
+
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 16px !important;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: rgb(175, 171, 171) !important;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: #82ae46 !important;
+}

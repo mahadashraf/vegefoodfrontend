@@ -1,0 +1,59 @@
+/* Subscribe.css */
+.subscribe-section {
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  /* flex-direction: column; */
+  
+}
+.one-container{
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe-section.bg-light {
+  background-color: #f7f6f2 ; /* Light background color to match the image */
+}
+
+.subscribe-section.bg-transparent {
+  background-color: transparent;
+}
+
+.textt-div {
+  margin-bottom: 20px;
+}
+
+.headingg {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subheadingg {
+  font-size: 16px;
+  color: #666;
+}
+
+
+
+.custom-search-input {
+  padding: 19px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-right: none;
+  flex: 1;
+  border-radius: 4px 0 0 4px; /* Rounded left corners */
+}
+
+.custom-search-button {
+  padding: 16px 25px 15px 26px;
+  font-size: 16px;
+  background-color: #82ae46;
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  transition: background-color 0.3s;
+
+}
+

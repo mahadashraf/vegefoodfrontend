@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+/* Deal.css */
+.deal-section {
+    background-image: url("https://themewagon.github.io/vegefoods/images/bg_3.jpg");
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: flex-end; /* Align text to the right */
+    padding: 20px; /* Add padding if needed */
+    color: white; /* Adjust text color for contrast */
+margin-top: 100px;
+}
+
+.text {
+    background:transparent; /* Optional: Adds a semi-transparent background to the text for better readability */
+    padding: 20px;
+    border-radius: 8px; /* Optional: Adds rounded corners to the text container */
+    display: block;
+    margin-top: -200px;
+    width: 45%;
+}
+
+.subheading {
+    font-size: 18px;
+    display: block;
+    
+    font-family: "Lora", Georgia, serif;
+    font-style: italic;
+    color: #82ae46;
+    font-weight: bold;
+}
+
+.textt {
+    font-size: 24px;
+    
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: gray;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+ .newtext{
+    color: #82ae46; /* Adjust link color if needed */
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Lora", Georgia, serif;
+    font-style: italic;
+}
+
+    
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+}
+.price .insidetext{
+    
+    gap: 20px;
+}
+
+.timer{
+    display: flex;
+    gap: 100px;
+}
+
+.timee{
+    color: #82ae46;
+}
+
+.time-2{
+    color: #000000;
+}

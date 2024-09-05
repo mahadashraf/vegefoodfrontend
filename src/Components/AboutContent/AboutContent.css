@@ -1,0 +1,73 @@
+.about-content{
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+    width: 100%;
+    background-color:  #f7f6f2 ;
+}
+
+.about-context h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", Arial, sans-serif;
+    width: 100%;
+}
+.about-context p {
+    line-height: 2;
+    width: 75%;
+}
+
+.two-container{
+ width: 1300px;
+ gap: 100px;
+ display:flex;
+ justify-content: space-around;
+
+}
+
+.estimate{
+    color: #82ae46;
+    transition: all 0.3s ease;
+}
+
+
+.img-about .icon {
+    color: #fff;
+    font-size: 23px;
+    position: relative;
+    top: 270px;
+    left: 170px;
+    transition: color 0.3s ease;
+    padding: 30px;
+    overflow: hidden; /* Ensure the ripple effect stays within the icon */
+  }
+  
+  .img-about .icon:hover {
+    color: #fff;
+  }
+  
+  .img-about .icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(0, 0, 0, 0.2); /* Ripple color */
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.6s, opacity 0.6s;
+    opacity: 0;
+    z-index: 0; /* Place it behind the icon */
+  }
+  
+  .img-about .icon:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  
+  .img-about .icon {
+    position: relative; /* Ensure positioning context for pseudo-element */
+    z-index: 1; /* Place the icon above the ripple effect */
+  }

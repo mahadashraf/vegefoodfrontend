@@ -1,0 +1,126 @@
+.checkout-container {
+    display: flex;
+   gap: 40px;
+   justify-content: center;
+    /* justify-content: space-around; */
+    height: 600px;
+    padding: 50px;
+    background-color: #f9f9f9;
+    font-weight: 300;
+    
+}
+  
+  .couponitems, .shippingitems, .cartitems {
+    background: white;
+    padding: 20px;
+ 
+    justify-content: center;
+  justify-content: space-around;
+  font-family: "Poppins", Arial, sans-serif;
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+.couponitems{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+}
+  .shippingitems{
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+  }
+  .estimate-shipping{
+    width: 32%;
+    
+  }
+  .cartitems{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+.cart-totals{
+    width: 20%;
+}
+  .coupon-code h3, .estimate-shipping h3, .cart-totals h3{
+    font-weight: 400;
+  }
+
+  .estimate-shipping p{
+    width: 90%;
+   
+  }
+  .coupon-code{
+    height: 150px;
+  }
+/* 
+  .coupon-code p, .estimate-shipping p {
+    margin-bottom: 10px;
+    color: #666;
+  }
+   */
+  .coupon-code input, .estimate-shipping input {
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    font-family: "Poppins", Arial, sans-serif;
+    
+  }
+ 
+  .text1{
+    font-size: 13px;
+    font-weight: 300;
+    color: #000000;
+  }
+
+  .apply-coupon, .estimate, .checkout {
+    background-color: #8bc34a;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 25px 15px 25px; 
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    float: left;
+    font-family: "Poppins", Arial, sans-serif;
+    
+  }
+  
+  .apply-coupon:hover, .estimate:hover, .checkout:hover {
+    background-color: transparent;
+    border:1px solid #8bc34a;
+    color: #8bc34a;
+
+  }
+  hr{
+    width: 100%;
+  }
+  
+  
+  .totals-row {
+    display: flex;
+   justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: 300;
+  }
+  
+  .total {
+    
+    font-size: 15px;
+
+  }
+  .totalprice{
+    font-weight: 600;
+    color: #000000;
+  }

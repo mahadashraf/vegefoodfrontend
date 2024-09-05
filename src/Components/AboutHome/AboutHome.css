@@ -1,0 +1,76 @@
+.abouthome-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 400px;
+  }
+  
+  .background-image {
+    background-image: url("https://www.bhg.com/thmb/Mwd_YEkDbVg_fPsUDcWr3eZk9W0=/5645x0/filters:no_upscale():strip_icc()/difference-between-fruits-vegetables-01-5f92e7ec706b463287bcfb46985698f9.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contentt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .contentt h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .contentt h1 a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    z-index: 99;
+    font-weight: 300;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  
+  .contentt h1 a:after {
+  
+    margin-left: 10px;
+  }
+  
+  .contentt h1 span {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    z-index: 99;
+    font-weight: 300;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  
+  .contentt h2 {
+    font-size: 2em;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+ 
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    z-index: 99;
+  
+    font-family: "Poppins", Arial, sans-serif;
+  }
+
+
+
+  
+  

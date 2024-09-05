@@ -1,0 +1,35 @@
+.admindashboard {
+    display: flex;
+    height: 100vh;
+    background: #ecf0f1;
+    gap: 20px;
+  }
+  
+  .admin-right-side {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  /* AdminDashboard.css */
+
+.admindashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.admin-right-side {
+  flex: 1;
+  transition: all 0.3s ease;
+  padding: 20px;
+  background-color: #f8f9fa; /* Background color for pages with side panel */
+}
+
+.admin-right-side.full-width {
+  width: 100%;
+  padding: 0; /* Remove padding when in full-width mode */
+  background-color: #ffffff; /* Full white background for pages without side panel */
+}

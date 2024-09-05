@@ -1,0 +1,160 @@
+
+.footer-section {
+    background: #fff;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+.arrowup-footer {
+    
+    border-radius: 50%;
+    position: relative;
+    top: -80px;
+  }
+  
+  .up-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #82ae46;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .up-icon:hover {
+    background: gray;
+  }
+  
+  .iconn2 {
+    font-size: 24px;
+    display: inline-block;
+  }
+  
+  @keyframes bounceAlpha {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    25% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .up-icon:hover .iconn2 {
+    animation-name: bounceAlpha;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+
+
+  .footer-container {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    
+  }
+  
+  .coll-1, .coll-2, .coll-3, .coll-4 {
+    background-color: transparent;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-heading {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+  }
+  
+  .coll-1 p, .coll-4 ul li span {
+    color: gray;
+    font-size: 14px;
+    width: 200px;
+  }
+  
+  .coll-2 ul, .coll-3 ul, .coll-4 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .coll-2 ul li, .coll-3 ul li, .coll-4 ul li {
+    margin-bottom: 10px;
+  }
+  
+  .coll-2 ul li a, .coll-3 ul li a, .coll-4 ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    color: #000;
+   
+    font-size: 30px;
+    /* margin-right: 10px;s */
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #82ae46;
+  }
+  
+  .icon22 {
+    margin-right: 8px;
+    color: #000;
+  
+  }
+  
+.info-footer{
+    display: flex;
+    width: 300px;
+    gap: 10px;
+    margin-top: 17px;
+
+}
+
+  .copyright {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin-top: 30px;
+  }
+
+  .copyright p a{
+    text-decoration: none;
+    color: #82ae46;
+  }
+  
+  .heart {
+    color: red;
+  }
+  

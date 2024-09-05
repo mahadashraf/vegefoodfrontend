@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+
+.body-container{
+
+
+  background: #f7f6f2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+flex-direction: row;
+	font-family: 'Montserrat', sans-serif;
+  font-size:10px;
+	height: 140vh;
+	/* margin: -20px 0 50px; */
+}
+.admin-form-container {
+	background-color: #ffffff;
+	border-radius: 5px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 968px;
+	max-width: 100%;
+	min-height: 580px;
+  min-width:370px;
+}
+
+.lg-view {
+  font-size:2rem;
+  margin-bottom:1rem;
+  color: #82ae46;
+}
+.left-inner-heading{
+  
+  font-size:2rem;
+  position: relative;
+  top: -110px;
+}
+
+.formm-container {
+  display:flex;
+}
+
+.leftt-container {
+  flex:1;
+  height:480px;
+
+ 
+}
+.right-container {
+  display:flex;
+  flex:1;
+  height:830px;
+  background-color: #ffffff;
+  justify-content:center;
+  align-items:center;
+}
+
+.leftt-container {
+  display:flex;
+  flex:1;
+  height:830px;
+  justify-content:center;
+  align-items:center;
+    color:#ffffff;
+    background-image:url("https://www.fluentu.com/blog/english/wp-content/uploads/sites/4/2023/05/vegetables.jpg");
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+  }
+
+.leftt-container p {
+  font-size:0.9rem;
+}
+
+.right-inner-container {
+  width:70%;
+  height:80%;
+  text-align:center;
+}
+
+.left-inner-container {
+  height:50%;
+  width:80%;
+  text-align:center;
+  line-height:22px;
+}
+
+.product-form-input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+  font-size:1rem;
+  font-family: "Poppins", Arial, sans-serif;
+  margin-top: 30px;
+}
+
+
+
+.product-form-input:focus{
+  outline:1px solid #00b4cf;
+}
+
+.product-form-button {
+	
+
+	background-color: #82ae46;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-radius: 50px;
+  background-color: #8bc34a;
+    border: none;
+    padding: 15px 45px 15px 45px; 
+    cursor: pointer;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.product-form-button:hover {
+  opacity:0.7;
+  background-color: transparent;
+    border:1px solid #8bc34a;
+    color: #8bc34a;
+  transition: all 0.3s ease;
+}
+@media only screen and (max-width: 600px) {
+  .leftt-container{
+    display: none;
+  }
+  .lg-view {
+    display:none;  
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sm-view {
+    display:none;  
+  }
+}
+

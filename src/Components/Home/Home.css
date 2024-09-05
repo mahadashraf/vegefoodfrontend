@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+.home-section1 {
+    background-image: url("https://www.bhg.com/thmb/Mwd_YEkDbVg_fPsUDcWr3eZk9W0=/5645x0/filters:no_upscale():strip_icc()/difference-between-fruits-vegetables-01-5f92e7ec706b463287bcfb46985698f9.jpg");
+    width: 100%;
+    min-height: 630px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 100px;
+    padding: 0;
+}
+.home-section2 {
+    background-image: url("https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/12/vegetables.jpg");
+    width: 100%;
+    min-height: 630px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 100px;
+    padding: 0;
+}
+
+
+.content {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-size: 8vw;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: "Amatic SC", cursive;
+}
+
+.content h2 {
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #fff;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.content .details {
+    color: #fff;
+    padding: 0.575rem 0.95rem;
+    background: #82ae46;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.content .details:hover {
+    background: transparent;
+    border: 1px solid #82ae46;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,220 @@
+.blog-content-section{
+    display: flex;
+    justify-content:space-around;
+       
+}
+
+.left-content {
+    display: flex;
+    gap: 30px;
+    margin-top: 90px;
+    align-items: flex-start; /* Align items to the start of the container */
+    /* width: 70%; */
+    position: relative;
+    left: 50px;
+  }
+
+  .left-content .img {
+    width: 280px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+  }
+  .left-content .left-text-content {
+    width: 50%; /* Adjust width to ensure space for text */
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  .left-content .left-text-content h2 {
+    font-weight: 400;
+    font-size: 19px;
+    margin-top: 0;
+  }
+  
+  .left-content .left-text-content p {
+    color: #6c757d;
+    font-size: 15px;
+    /* width: 100%; */
+  }
+  
+  .left-content .left-text-content button {
+    background-color: #8bc34a;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-family: "Poppins", Arial, sans-serif;
+    transition: all 0.3s ease;
+  }
+  .left-content .left-text-content button:hover {
+    opacity: 0.7;
+    background-color: transparent;
+    border: 1px solid #8bc34a;
+    color: #8bc34a;
+  }
+  .document-text {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px; /* Add margin below the document text */
+  }
+
+  .document-text a {
+    text-decoration: none;
+    color: black;
+  }
+  .document-text .text-icon {
+    color: #82ae46;
+  }
+
+/* Right side */
+.right-side-blog {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin-top: 70px; */
+    width: 53%;
+    
+  }
+.rightblog{
+    margin-top: 80px;
+}
+  .rightt-content {
+    display: flex;
+   
+   gap: 25px;
+    margin-top: 40px;
+  }
+  
+  .rightt-content img {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .rightt-content .right-text-content {
+    width: 100%; 
+     font-family: "Poppins", Arial, sans-serif;
+  }
+  
+  .rightt-content .right-text-content h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+  }
+  
+  .rightblog .tagcloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 55%; /* Ensure it spans the full width of the container */
+  }
+  .rightblog h3{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  
+  .rightblog .tagcloud a {
+    text-decoration: none;
+    text-transform: uppercase;
+ 
+    padding: 4px 10px;
+    margin-bottom: 7px;
+    font-family: "Poppins", Arial, sans-serif;
+    border-radius: 4px;
+    color: #000000;
+    border: 1px solid #ccc;
+    font-size: 11px;
+  }
+  
+  .rightblog .tagcloud a:hover {
+    border: 1px solid #000;
+  }
+  
+  .rightblog p {
+    width: 70%; /* Ensure full width */
+    padding: 0;
+    font-size: 15px;
+  }
+
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form .form-group {
+    position: relative; 
+   
+  }
+  
+  .search-form input {
+    color: #82ae46;
+    padding: 15px 120px 15px 10px; 
+  
+    border-radius: 4px; 
+    width: 100%;
+    box-sizing: border-box; 
+  }
+  
+  .search-form input:focus {
+    border-color: #8bc34a; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .search-icon {
+    font-size: 18px; /* Adjust size as needed */
+    color: #82ae46; /* Adjust color as needed */
+    position: absolute; /* Position icon inside the input field */
+    left: 290px; /* Space from the left edge of the input */
+    top: 50%; /* Center icon vertically */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+  }
+  
+
+
+
+.form-control {
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%; /* Ensure input takes up full width of container */
+}
+
+.rightblog .categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   width: 65%;
+}
+.rightblog .categories li{
+  
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #dee2e6;
+    list-style: none;
+    
+}
+
+.rightblog .categories li a {
+   
+    color: #000000;
+    font-size: 16px;
+    display: flex;
+    /* gap: 300px; */
+    justify-content: space-between;
+}
