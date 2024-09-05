@@ -47,7 +47,7 @@ export const Home = () => {
         <h1>We Serve Fresh Vegetables and Fruits</h1>
         <h2>We Deliver Organic Vegetables and Fruits</h2>
         <p>
-            <a href="" className='details'>View Details</a>
+            <a href="/" className='details'>View Details</a>
         </p>
         
         </div>  
@@ -57,7 +57,7 @@ export const Home = () => {
         <h1>100% Fresh & Organic Foods </h1>
         <h2>We Deliver Organic Vegetables and Fruits</h2>
         <p>
-            <a href="" className='details'>View Details</a>
+            <a href="/" className='details'>View Details</a>
         </p>
         
         </div>  

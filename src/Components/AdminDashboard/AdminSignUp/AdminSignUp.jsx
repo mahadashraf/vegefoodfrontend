@@ -154,7 +154,7 @@ const AdminSignUp = () => {
 
           <div className="checkbox-row">
             <label>
-              <input type="checkbox" /> Creating your account and you accepting <a href="#" className="terms-link">Terms & Conditions</a>.
+              <input type="checkbox" /> Creating your account and you accepting <a href="/" className="terms-link">Terms & Conditions</a>.
             </label>
           </div>
           <button type="submit" className="create-account-button">Create Account</button>
@@ -166,9 +166,9 @@ const AdminSignUp = () => {
             <div className="line1"><hr /></div>
           </p>
           <div className="social-icons">
-            <a href="" className='social-button facebook'><img src="../facebook.png" alt="Facebook" width={35}/></a>
-            <a href="" className='social-button facebook'><img src="../twitter.png" alt="Twitter" width={35}/></a>
-            <a href="" className='social-button facebook'><img src="../social.png" alt="Social" width={35}/></a>
+            <a href="/" className='social-button facebook'><img src="../facebook.png" alt="Facebook" width={35}/></a>
+            <a href="/" className='social-button facebook'><img src="../twitter.png" alt="Twitter" width={35}/></a>
+            <a href="/" className='social-button facebook'><img src="../social.png" alt="Social" width={35}/></a>
           </div>
           <div className="create-accountt">
             <p>Already have an account? <a href="/admindashboard/adminlogin" className="login-link"> Sign in here!</a></p>

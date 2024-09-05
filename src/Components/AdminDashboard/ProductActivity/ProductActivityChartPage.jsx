@@ -8,7 +8,7 @@ import ProductActivityChart from './ProductActivityChart';
 
 
 function ProductActivityChartPage() {
-  const [activityData, setActivityData] = useState(() => {
+  const [activityData, ] = useState(() => {
     const savedData = localStorage.getItem('activityData');
     return savedData ? JSON.parse(savedData) : {
       add: Array(7).fill(0),

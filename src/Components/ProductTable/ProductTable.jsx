@@ -28,9 +28,9 @@ export const ProductTable = () => {
               </td>
               <td>
                 <div className="product-info">
-                  <img src="../product-1.jpg" width="50" loading="lazy" />
+                  <img src="../product-1.jpg" width="50" loading="lazy" alt='product'/>
                   <div>
-                    <h2></h2>
+                    <h2>s</h2>
                     <p></p>
                   </div>
                   

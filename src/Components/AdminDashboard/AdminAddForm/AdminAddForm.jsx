@@ -10,7 +10,7 @@ export const AdminAddForm = () => {
   const [productCategory, setProductCategory] = useState('');
   const [productDescription, setProductDescription] = useState('');
 
-  const [products, setProducts] = useState([]); // Initialize as an array
+  const [, setProducts] = useState([]); // Initialize as an array
   const [warning, setWarning] = useState(''); // State for warning message
   const [success, setSuccess] = useState(''); // State for success message
 

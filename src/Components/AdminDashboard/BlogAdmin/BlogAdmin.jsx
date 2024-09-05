@@ -34,8 +34,8 @@ const BlogAdmin = () => {
             <div className="left-text-contentt">
               <h2>How Healthy Are Your Vegetables</h2>
               <div className="document-textt">
-                <div><a href="#">By Mahad Ashraf</a></div>
-                <div><a href="#">July 20, 2019</a></div>
+                <div><a href="/">By Mahad Ashraf</a></div>
+                <div><a href="/">July 20, 2019</a></div>
               </div>
             </div>
           </div>
@@ -46,8 +46,8 @@ const BlogAdmin = () => {
             <div className="left-text-contentt">
               <h2>Even the all-powerful</h2>
               <div className="document-textt">
-                <div><a href="#">By Mahad Ashraf</a></div>
-                <div><a href="#">July 20, 2019</a></div>
+                <div><a href="/">By Mahad Ashraf</a></div>
+                <div><a href="/">July 20, 2019</a></div>
               </div>
             </div>
           </div>
@@ -58,10 +58,10 @@ const BlogAdmin = () => {
       <div className="additional-content">
         {[...Array(12)].map((_, index) => (
           <div key={index} className="additional-container">
-            <img src="https://www.nutritionindemand.com/wp-content/uploads/2021/03/SOTP-Blog-Cover-1080x675.png" className="additional-image" />
+            <img src="https://www.nutritionindemand.com/wp-content/uploads/2021/03/SOTP-Blog-Cover-1080x675.png" className="additional-image" alt='cat'/>
             <span className="category-tagg">Vegetables</span>
             <div className="document-texttt">
-              <div><a href="#">July 20, 2019 </a></div>
+              <div><a href="/">July 20, 2019 </a></div>
               <div><h2>How to Make Best Fruit Juice</h2></div>
               <div><p>By Mahad Ashraf</p></div>
             </div>

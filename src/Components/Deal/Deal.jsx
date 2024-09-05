@@ -7,7 +7,7 @@ export const Deal = () => {
             <span className="subheading">Best Price For you</span>
             <h2 className="textt">Deal of the day</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-            <p><a href="" className='newtext'>Spanich</a></p>
+            <p><a href="/" className='newtext'>Spanich</a></p>
             <span className="price">$10<span className="insidetext">Now $5</span></span>
 
 

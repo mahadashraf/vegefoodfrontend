@@ -38,19 +38,19 @@ export const Footer = () => {
         <div className="coll-2">
           <h5 className="text-heading">Menu</h5>
           <ul>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Journal</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/">Shop</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Journal</a></li>
+            <li><a href="/">Contact Us</a></li>
           </ul>
         </div>
         <div className="coll-3">
           <h5 className="text-heading">Help</h5>
           <ul>
-            <li><a href="#">Shipping Information</a></li>
-            <li><a href="#">Returns & Exchange</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="/">Shipping Information</a></li>
+            <li><a href="/">Returns & Exchange</a></li>
+            <li><a href="/">Terms & Conditions</a></li>
+            <li><a href="/">Privacy Policy</a></li>
           </ul>
       
         </div>

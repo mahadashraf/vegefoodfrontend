@@ -21,11 +21,7 @@ const AdminLogin = () => {
         }),
       });
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        setError('Login failed');
-        return;
-      }
+     
 
       const data = await response.json();
       console.log('Login successful:', data);
@@ -66,7 +62,7 @@ const AdminLogin = () => {
               <label className='labellogin'>
                 <input type="checkbox" /> Remember me
               </label>
-              <a href="#" className='forgetpass'>Forgot Password?</a>
+              <a href="/" className='forgetpass'>Forgot Password?</a>
             </div>
             <br />
             <button className='buttonlogin' type="submit">LOGIN</button>
@@ -79,9 +75,9 @@ const AdminLogin = () => {
               <div className="line1"><hr /></div>
             </p>
             <div className="social-icons">
-              <a href="#" className='social-button facebook'><img src="../facebook.png" alt="Facebook" width={35}/></a>
-              <a href="#" className='social-button twitter'><img src="../twitter.png" alt="Twitter" width={35}/></a>
-              <a href="#" className='social-button social'><img src="../social.png" alt="Social" width={35}/></a>
+              <a href="/" className='social-button facebook'><img src="../facebook.png" alt="Facebook" width={35}/></a>
+              <a href="/" className='social-button twitter'><img src="../twitter.png" alt="Twitter" width={35}/></a>
+              <a href="/" className='social-button social'><img src="../social.png" alt="Social" width={35}/></a>
             </div>
             <div className="create-account">
               <p>Don't have an account? <a href="/admindashboard/signup" className="signup-link">Sign Up</a></p>
