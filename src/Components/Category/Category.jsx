@@ -27,7 +27,7 @@ export const Category = () => {
     }
   }, [products]);
   const fetchProductData = () => {
-    axios.get('https://vegefoodbackend.vercel.app/api/getImage')
+    axios.get('https://vegefoodbackend.vercel.app//api/getImage')
       .then(res => {
         setProducts(res.data);
         setDisplayedProducts(getRandomProducts(res.data));
