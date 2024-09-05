@@ -10,7 +10,7 @@ export const Home = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 2000,
         slidesToShow: 1, // Show 3 slides at once
         slidesToScroll: 1,
         autoplay: true,
